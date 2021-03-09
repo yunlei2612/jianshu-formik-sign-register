@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing : antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background-color: #f1f1f1;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.sign-up {
+	width          : 100%;
+	height         : 100vh;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.sign-in {
+	width          : 100%;
+	height         : 100vh;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.sign-in,
+.username {
+	border-radius: 10px 10px 0 0;
+}
+
+.sign-in,
+.pwd {
+	border-radius: 0 0 10px 10px;
+}
+
+.sign-up,
+.emailUp {
+	border-radius: 10px 10px 0 0;
+}
+
+
+.tform {
+	width           : 400px;
+	padding         : 50px 50px 30px;
+	background-color: #fff;
+	box-shadow      : 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .tform.in {
+	height: 320px;
+} */
+
+.form-title {
+	height         : 50px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	font-size      : 18px;
+	margin-bottom  : 30px;
+}
+
+.form-title .active {
+	color: #ea6f5a;
+}
+
+.form-title>span {
+	cursor: pointer;
+}
+
+.form-title>span a {
+	color: #111;
+}
+
+.form-title>span:hover {
+	border-bottom: 2px solid #ea6f5a;
+}
+
+.form-item {
+	position: relative;
+}
+
+.input-style {
+	width           : 100%;
+	height          : 50px;
+	background-color: #f1f1f1;
+	border          : 1px solid #c8c8c8 !important;
+	border-bottom   : 1px solid transparent !important;
+	outline         : none;
+	padding: 4px 12px 4px 12px;
+	/* border-radius: 10px  10px 0; */
+}
+
+.pwd {
+	border-bottom: 1px solid #c8c8c8 !important;
+}
+
+
+.field-error {
+	position   : absolute;
+	top        : 14px;
+	left       : calc(100% + 10px);
+	color      : #ea6f5a;
+	white-space: nowrap;
+}
+
+.sumbit-btn {
+	background   : #3194d0;
+	margin-top   : 20px;
+	width        : 100%;
+	padding      : 9px 18px;
+	font-size    : 18px;
+	border       : none;
+	border-radius: 25px;
+	color        : #fff;
+	cursor       : pointer;
+	outline      : none;
+	display      : block;
+	clear        : both;
+}
+
+.register-btn {
+	background: #42c02e;
+}
+
+.register-box {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.register-tips {
+	width     : 200px;
+	margin-top: 14px;
+	font-size : 12px;
+	text-align: center;
+}
+
+.register-tips-info {
+	color: #3194d0;
+}
+
+/* element.style {
+} */
+.more-sign {
+	margin-top: 50px;
+}
+
+.more-sign h6 {
+	position  : relative;
+	text-align: center;
+	margin    : 0 0 10px;
+	font-size : 12px;
+	color     : #b5b5b5;
+}
+
+.more-sign h6:before {
+	content   : "";
+	border-top: 1px solid #b5b5b5;
+	display   : block;
+	position  : absolute;
+	width     : 60px;
+	top       : 9px;
+	left      : 30px;
+}
+
+.more-sign h6:after {
+	content   : "";
+	border-top: 1px solid #b5b5b5;
+	display   : block;
+	position  : absolute;
+	width     : 60px;
+	top       : 9px;
+	right     : 30px;
+}
+
+.more-sign,
+.more-sign-icon {
+	text-align: center;
+}
+
+.more-sign span, .more-sign-icon , span  {
+   margin : 0 15px;
+}
