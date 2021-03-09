@@ -6,7 +6,6 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect
 } from "react-router-dom";
 
@@ -27,6 +26,3 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>首页</h2>;
-}

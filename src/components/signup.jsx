@@ -1,8 +1,8 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { message, Icon } from 'antd'
-import { WeiboOutlined, WechatFilled, QqOutlined } from '@ant-design/icons';
+import { message } from 'antd'
+import { WechatFilled, QqOutlined } from '@ant-design/icons';
 import { signUp } from '../services/user'
 import {
 	Link
